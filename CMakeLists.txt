@@ -35,9 +35,9 @@ if (NOT MINGW)
             #            GIT_REPOSITORY https://github.com/Cgettys/assimp.git
             #            GIT_TAG collada-use-mesh-names
             #GIT_TAG fix-SceneCombiner-DeepCopy
-            #GIT_TAG v4.1.0
+            GIT_TAG v5.0.1
             CMAKE_ARGS
-            -DCMAKE_BUILD_TYPE=Debug
+            #-DCMAKE_BUILD_TYPE=Debug
             -DCMAKE_TOOLCHAIN_FILE=
             -DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/assimp
             -DCMAKE_CXX_FLAGS="-fPIC"
