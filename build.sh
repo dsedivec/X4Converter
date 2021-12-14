@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd build &&
-cmake .. -DCMAKE_BUILD_TYPE=Debug && cmake --build . -- -j8 &&
+cmake .. && cmake --build . -- -j8 &&
 #ctest
 ./X4ConverterTools/test/test_executable
 cd ..
